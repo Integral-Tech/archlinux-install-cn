@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Arch Linux 安装笔记
+Upstream-Contact: Integral <integral@member.fsf.org>
+Source: https://github.com/Integral-Tech/archlinux-install-cn
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...

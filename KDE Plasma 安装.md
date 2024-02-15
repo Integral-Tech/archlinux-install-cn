@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Integral <integral@member.fsf.org>
+
+SPDX-License-Identifier: GFDL-1.3-or-later
+-->
+
 在按照基础环境篇安装完成后，下一步就是安装桌面环境了。
 # 安装窗口图形系统
 窗口图形系统有两种选择—— Xorg 和 Wayland。
