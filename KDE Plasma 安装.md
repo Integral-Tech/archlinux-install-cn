@@ -5,16 +5,6 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
 在按照基础环境篇安装完成后，下一步就是安装桌面环境了。
-# 安装窗口图形系统
-窗口图形系统有两种选择—— Xorg 和 Wayland。
-**虽然可以使用 Wayland 启动 KDE Plasma，但仍存在一些缺失的功能和已知问题。建议使用 Xorg 以获得最完整和稳定的体验。**
-
-执行下面命令安装 Xorg 的一些组件：
-```bash
-sudo pacman -S xorg-server xorg-apps xorg-xinit xorg-xclock xterm
-```
-安装完成后，可执行 ```startx```测试 Xorg 是否正常工作。
-（执行```exit```退出 Xorg 测试界面）
 
 # 安装 KDE Plasma
 执行下面命令安装 KDE Plasma：
@@ -27,7 +17,7 @@ sudo pacman -S kde-applications
 ```
 下面是安装个人喜欢的一些 KDE 应用，执行
 ```bash
-sudo pacman -S dolphin konsole kate kdeconnect ark gwenview partitionmanager filelight kcalc kdenlive krita kdiskmark
+sudo pacman -S dolphin konsole kate kdeconnect ark gwenview partitionmanager filelight okular kcalc kdenlive
 ```
 （KDE 应用详见 https://apps.kde.org/zh-cn/）
 
