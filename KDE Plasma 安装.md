@@ -19,7 +19,7 @@ sudo pacman -S kde-applications
 ```bash
 sudo pacman -S dolphin konsole kate kdeconnect ark gwenview partitionmanager filelight okular kcalc kdenlive
 ```
-（KDE 应用详见 https://apps.kde.org/zh-cn/）
+（KDE 应用详见 https://apps.kde.org/zh-cn ）
 
 ## 启用登录管理器
 启用 SDDM，进入桌面环境：
